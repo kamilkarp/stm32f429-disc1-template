@@ -26,7 +26,7 @@ void delay_us(uint32_t n) {
 }
 
 void delay_1ms(void) {
-	sysTickCounter = 1;
+	sysTickCounter = 1000;
 	while (sysTickCounter != 0);
 }
 
